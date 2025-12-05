@@ -12,21 +12,26 @@ const FlistPagination = () => {
     fetchProducts();
   }, []);
 
+  useEffect(() => {
+    if (products.length > 0) {
+      loadMoreData(products, 1);
+    }
+  }, [products]);
+
   const fetchProducts = async () => {
     const res = await fetch("https://dummyjson.com/products");
     const json = await res.json();
     setProducts(json.products);
-    loadMoreData(json.products, 1);
   };
 
   const loadMoreData = (list = products, currentPage = page) => {
     const start = (currentPage - 1) * ITEM_PER_PAGE;
     const end = start + ITEM_PER_PAGE;
 
-    const newData = list.slice(start, end);
+    const newItems = list.slice(start, end);
 
-    if (newData.length > 0) {
-      setData((prev) => [...prev, ...newData]);
+    if (newItems.length > 0) {
+      setData((prev) => [...prev, ...newItems]);
       setPage((prev) => prev + 1);
     }
   };
@@ -60,6 +65,8 @@ const FlistPagination = () => {
 };
 
 export default FlistPagination;
+
+// ------------------ STYLES --------------------
 
 const styles = StyleSheet.create({
   listContainer: {
