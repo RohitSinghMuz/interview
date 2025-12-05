@@ -1,6 +1,7 @@
 import React from 'react'
 import { View } from 'react-native';
-import DebounceData from './native/DebounceData';
+import Stopwatch from './native/stopwatch';
+// import DebounceData from './native/DebounceData';
 
 
  const App = () => {
@@ -8,7 +9,7 @@ import DebounceData from './native/DebounceData';
    <View>
 {/* 
     <Flistpajination/> */}
-    <DebounceData/>
+    <Stopwatch/>
    </View>
   )
 }
