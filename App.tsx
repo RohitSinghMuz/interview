@@ -1,7 +1,7 @@
 import React from 'react'
 import { View } from 'react-native';
-import Flistpajination from './js/native/Flistpajination';
-import DebounceData from './js/native/DebounceData';
+import DebounceData from './native/DebounceData';
+
 
  const App = () => {
   return (
