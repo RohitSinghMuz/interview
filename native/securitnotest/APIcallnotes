@@ -1,0 +1,11 @@
+// “To secure API calls, I always use HTTPS and adopt token-based 
+// authentication like JWT, storing tokens only in secure storage. 
+// I never expose sensitive keys in the frontend and route critical operations 
+// through a backend service.
+
+// All APIs are protected with backend validation, authorization, rate limiting, 
+// and proper CORS rules. I also use environment variables, avoid exposing secrets, 
+// and for advanced cases, implement request signing (HMAC).
+
+// Overall, my approach ensures secure communication, safe token handling,
+//  and defense against common attacks.”

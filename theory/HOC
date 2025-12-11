@@ -1,0 +1,13 @@
+# What is a Higher Order Component (HOC)?
+
+# A Higher Order Component (HOC) is a function that takes a component as 
+# input and returns a new enhanced component.
+
+# Think of it as a wrapper that adds extra features (logic, data, UI behavior)
+#  without modifying the original component.
+
+# 📌 Simple definition (perfect for interview)
+
+# A Higher Order Component is a function that takes a component and returns
+#  another component by adding extra logic or props.
+# It’s used to reuse logic across multiple components.

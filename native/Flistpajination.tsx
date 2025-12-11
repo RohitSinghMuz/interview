@@ -14,13 +14,15 @@ const FlistPagination = () => {
 
   useEffect(() => {
     if (products.length > 0) {
-      loadMoreData(products, 1);
+      loadMoreData(products, page);
     }
   }, [products]);
 
   const fetchProducts = async () => {
     const res = await fetch("https://dummyjson.com/products");
     const json = await res.json();
+
+    // Save only product list
     setProducts(json.products);
   };
 
