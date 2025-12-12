@@ -1,14 +1,15 @@
-import React, { useEffect, useState } from 'react';
-import { FlatList, Image, StatusBar, Text, View } from 'react-native';
-import Stopwatch from './native/stopwatch';
-import { SafeAreaView } from 'react-native-safe-area-context';
-import LangScreen from './native/language/LangScreen';
-// import DebounceData from './native/DebounceData';
+import React from "react";
+import { I18nextProvider } from "react-i18next";
+import i18n from "./native/language/locales/i18n";
+import LangScreen from "./native/language/LangScreen";
 
-const App = () => {
 
+function App() {
   return (
-     <LangScreen/>
+    <I18nextProvider i18n={i18n}>
+      <LangScreen />
+    </I18nextProvider>
   );
-};
+}
+
 export default App;
