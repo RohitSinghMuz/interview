@@ -3,7 +3,6 @@
 // import i18n from "./native/language/locales/i18n";
 // import LangScreen from "./native/language/LangScreen";
 
-
 // function App() {
 //   return (
 //     <I18nextProvider i18n={i18n}>
@@ -14,21 +13,39 @@
 
 // export default App;
 
+// import React from 'react';
+// import { Provider } from 'react-redux';
+// import store from './native/reduxsaga/store';
+// import ProductScreen from './native/reduxsaga/ProductScreen';
+//  for redux Saga
+
+// const App = () => {
+//   return (
+//     <Provider store={store}>
+//       <ProductScreen />
+//     </Provider>
+//   );
+// };
+
+// export default App;
+
+
+
+// for redux thunk
 
 
 import React from "react";
 import { Provider } from "react-redux";
-import store from "./native/reduxsaga/store";
-import ProductScreen from "./native/reduxsaga/ProductScreen";
+import store from "./native/reduxthunk/store";
+import ProductScreen from "./native/reduxthunk/ProductScreen";
 
 
-const App=()=>{
+const App = () => {
   return (
     <Provider store={store}>
       <ProductScreen />
     </Provider>
   );
-}
+};
 
-export default  App
-
+export default App;
