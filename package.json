@@ -13,6 +13,7 @@
     "@react-native-async-storage/async-storage": "^2.2.0",
     "@react-native/new-app-screen": "0.82.1",
     "@reduxjs/toolkit": "^2.11.2",
+    "@shopify/flash-list": "^2.2.0",
     "add": "^2.0.6",
     "i18next": "^25.7.2",
     "react": "19.1.1",
