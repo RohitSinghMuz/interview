@@ -967,7 +967,7 @@ console.log(x, y);
 **[:top: Scroll to Top](#javascript-output-based-interview-questions)**
 
 
-```    top 100 mcq below
+# top 100 mcq below
 
 
 # JavaScript-100-objective-based-questions
