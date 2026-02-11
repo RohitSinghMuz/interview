@@ -1,43 +1,4 @@
-Sidebar menu
-Search
-Write
-Notifications
 
-Rohit kumar
-Home
-Library
-Profile
-Stories
-Stats
-Following
-Find writers and publications to follow.
-
-See suggestions
-Get unlimited access to the best of Medium for less than $1/week.
-Become a member
-
-Top highlight
-
-Top React Native Interview Questions with Answer
-Anand Gaur
-Anand Gaur
-
-Follow
-31 min read
-·
-Jun 27, 2025
-86
-
-
-
-
-
-
-Press enter or click to view image in full size
-
-Whether you’re a beginner or an experienced React Native developer, preparing for interviews can be tricky.
-
-This blog covers 150+ frequently asked React Native interview questions with detailed and beginner-friendly answers.
 
 1. What is React Native?
 React Native is an open-source framework developed by Meta that allows you to build mobile apps using JavaScript and React. It compiles to native code, which means the app will use real native components on both Android and iOS. The biggest advantage is code reusability between platforms.
